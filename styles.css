@@ -1,0 +1,298 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(135deg, #007BFF, #00BFFF);
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  header .logo img {
+    width: 300px;
+    margin-bottom: 0px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+  }
+  
+  .btn-primary {
+    background: #fff;
+    color: #007BFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background: #f4f4f4;
+  }
+  
+  /* About Us Section */
+  .about-us {
+    padding: 40px 0;
+    background: #fff;
+  }
+  
+  .about-us h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+  
+  .about-us p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 40px 0;
+    background: #f9f9f9;
+  }
+  
+  .services h2, .consultants h2, .testimonials h2, .faqs h2, .cta h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+  }
+  
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .service-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service-card i {
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+  }
+  
+  .service-card h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Consultants Section */
+  .consultants {
+    padding: 40px 0;
+    background: #fff;
+  }
+  
+  .consultant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .consultant-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .consultant-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .consultant-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .consultant-card h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  
+  .consultant-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    padding: 40px 0;
+    background: #f9f9f9;
+  }
+  
+  .testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .testimonial-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .testimonial-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .testimonial-card h4 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #007BFF;
+  }
+  
+  /* FAQs Section */
+  .faqs {
+    padding: 40px 0;
+    background: #fff;
+  }
+  
+  .faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .faq-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-card h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    color: #007BFF;
+  }
+  
+  .faq-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* CTA Section */
+  .cta {
+    background: linear-gradient(135deg, #007BFF, #00BFFF);
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .cta h2 {
+    margin-bottom: 20px;
+  }
+  
+  .cta form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .cta input, .cta select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .cta button {
+    background: #fff;
+    color: #007BFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cta button:hover {
+    background: #f4f4f4;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  footer .footer-logo img {
+    width: 150px;
+  }
+  
+  footer .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer .footer-contact p {
+    margin: 5px 0;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }

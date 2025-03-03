@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kapitalist - Financial Advisory Services</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="logo.png" alt="Kapitalist Logo">
+      </div>
+      <h1>Kapitalist</h1>
+      <p>Your trusted partner for financial growth and investment strategies.</p>
+      <a href="#book-consultation" class="btn-primary">Book a Consultation</a>
+    </div>
+  </header>
+
+  <section class="about-us">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>At Kapitalist, we are dedicated to helping individuals and businesses achieve their financial goals. With a team of experienced consultants, we provide personalized financial planning, investment advisory, and wealth management services tailored to your unique needs.</p>
+      <p>Our mission is to empower you with the knowledge and tools to make informed financial decisions and secure your future.</p>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <i class="fas fa-coins"></i>
+          <h3>Personal Financial Planning</h3>
+          <p>Tailored plans to help you achieve your financial goals, from saving for a home to planning for your children's education.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-chart-line"></i>
+          <h3>Investment Advisory</h3>
+          <p>Expert advice to grow your wealth through smart investments in stocks, bonds, mutual funds, and more.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-piggy-bank"></i>
+          <h3>Retirement Planning</h3>
+          <p>Secure your future with our retirement strategies, ensuring you can enjoy your golden years stress-free.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-file-invoice-dollar"></i>
+          <h3>Tax Optimization</h3>
+          <p>Minimize your tax liabilities with our expert guidance, helping you keep more of your hard-earned money.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-landmark"></i>
+          <h3>Wealth Management</h3>
+          <p>Comprehensive solutions to manage and grow your wealth, ensuring long-term financial stability.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-hand-holding-usd"></i>
+          <h3>Estate Planning</h3>
+          <p>Plan for the future of your assets and ensure your loved ones are taken care of with our estate planning services.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="consultants">
+    <div class="container">
+      <h2>Meet Our Consultants</h2>
+      <div class="consultant-grid" id="consultant-grid">
+        <!-- Consultant profiles will be dynamically loaded here -->
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <p>"Kapitalist helped me plan my retirement and investments. Their team is knowledgeable and professional. Highly recommended!"</p>
+          <h4>- John Smith</h4>
+        </div>
+        <div class="testimonial-card">
+          <p>"I was struggling with tax planning, but Kapitalist provided me with a clear strategy that saved me thousands. Thank you!"</p>
+          <h4>- Jane Doe</h4>
+        </div>
+        <div class="testimonial-card">
+          <p>"The wealth management services at Kapitalist are top-notch. They truly care about their clients' financial well-being."</p>
+          <h4>- Michael Lee</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faqs">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-grid">
+        <div class="faq-card">
+          <h3>What is financial planning?</h3>
+          <p>Financial planning is the process of setting and achieving your financial goals through proper management of your finances, including savings, investments, and expenses.</p>
+        </div>
+        <div class="faq-card">
+          <h3>How do I get started with Kapitalist?</h3>
+          <p>Simply book a consultation through our website, and one of our consultants will guide you through the process.</p>
+        </div>
+        <div class="faq-card">
+          <h3>What makes Kapitalist different?</h3>
+          <p>We offer personalized, client-focused services with a team of experienced professionals dedicated to your financial success.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="book-consultation">
+    <div class="container">
+      <h2>Ready to Grow Your Wealth?</h2>
+      <form id="consultationForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="tel" id="phone" placeholder="Your Phone Number" required>
+        <select id="service" required>
+          <option value="">Select a Service</option>
+          <option value="financial-planning">Personal Financial Planning</option>
+          <option value="investment-advisory">Investment Advisory</option>
+          <option value="retirement-planning">Retirement Planning</option>
+          <option value="tax-optimization">Tax Optimization</option>
+          <option value="wealth-management">Wealth Management</option>
+          <option value="estate-planning">Estate Planning</option>
+        </select>
+        <button type="submit" class="btn-primary">Book Now</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="https://via.placeholder.com/150x50?text=Kapitalist+Logo" alt="Kapitalist Logo">
+        </div>
+        <div class="footer-links">
+          <a href="#about-us">About Us</a>
+          <a href="#services">Services</a>
+          <a href="#consultants">Consultants</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-contact">
+          <p>Contact us: <a href="mailto:info@kapitalist.com">info@kapitalist.com</a></p>
+          <p>Phone: +1 (123) 456-7890</p>
+        </div>
+      </div>
+      <p>&copy; 2023 Kapitalist. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
